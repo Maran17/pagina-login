@@ -12,6 +12,7 @@ body {
 
 .sidenav {
     height: 100%;
+    width: 100%;
     background-color: #000;
     overflow-x: hidden;
     padding-top: 20px;
@@ -74,14 +75,7 @@ body {
     color: #fff;
 }
 
-button[type="submyt"] {
-    border: 2px rgb(3, 3, 3);
-    background-color:rgb(223, 21, 21);
-    border-radius:100000px;
-    padding: 10px;
-    width: 100%;
-    font-weight: bold;
-    font-size: 24px;
-    color:rgb(255, 255, 255)
-    }
-    
+.btn-secondary{
+    background-color: rgb(150, 231, 0) !important;
+    color: #fff;
+}
